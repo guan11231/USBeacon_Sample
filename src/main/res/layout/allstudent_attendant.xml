@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.AllStudent_Attendant">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#f1f1f1">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="課名"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="學號"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="姓名"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 1 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 2 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 3 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 4 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 5 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 6 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 7 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 8 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 9 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 10 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 11 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 12 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 13 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 14 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 15 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 16 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 17 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 18 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 19 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="第 20 週"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

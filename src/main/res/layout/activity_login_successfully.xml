@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.login_successfully"
+    android:id="@+id/layout">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="歡迎您"
+        android:gravity="center"
+        android:textColor="#009688"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/user_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#009688"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_to_game"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:text="互動遊戲"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_to_roll_call"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:text="點名簽到"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_to_search_today"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:text="今日簽到狀況"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_to_search_user"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:text="出缺席查詢"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

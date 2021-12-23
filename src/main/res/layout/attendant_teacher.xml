@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.Attendant_teacher">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#f1f1f1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="課堂簽到表"
+                    android:padding="10sp"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="課名"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="教室"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="日期"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="時段"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="學生人數"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="查詢"
+                        android:padding="10sp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</ScrollView>
