@@ -1,2 +1,1 @@
 # USBeacon_Sample
-"HI"
